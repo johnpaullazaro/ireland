@@ -2,7 +2,16 @@
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
-    extend: {},
+    fontFamily: {
+      'display': ['Oswald'],
+      'body': ['"Open Sans"'],
+    },
+    extend: {
+      backgroundImage: {
+        'parallax': 'url("assets/image/png/header-pic.jpg")',
+      }
+
+    },
   },
   plugins: [],
 }
