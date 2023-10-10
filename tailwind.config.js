@@ -3,8 +3,8 @@ module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
     fontFamily: {
-      'display': ['Oswald'],
-      'body': ['"Open Sans"'],
+      cormorant: ['Cormorant SC', 'serif'],
+      imperial: ['Imperial Script', 'cursive']
     },
     extend: {
       backgroundImage: {
