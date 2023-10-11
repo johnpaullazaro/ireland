@@ -8,7 +8,7 @@ module.exports = {
     },
     extend: {
       backgroundImage: {
-        'parallax': 'url("assets/image/png/header-pic.jpg")',
+        'parallax': 'url("https://preen.ph/wp-content/blogs.dir/38/files/2015/12/Aldub.jpg")',
       }
 
     },
