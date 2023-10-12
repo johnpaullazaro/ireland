@@ -1,0 +1,11 @@
+.venue-container {
+    @apply p-10;
+
+    .heading {
+        @apply flex flex-col justify-center items-center;
+    }
+
+    .venue-body {
+        @apply flex flex-col justify-center items-center;
+    }
+}

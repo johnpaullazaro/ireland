@@ -8,10 +8,10 @@ module.exports = {
     },
     extend: {
       backgroundImage: {
-        'parallax': 'url("https://preen.ph/wp-content/blogs.dir/38/files/2015/12/Aldub.jpg")',
+        'parallax': 'url("assets/image/png/header-pic.jpg")',
       }
 
     },
   },
-  plugins: [],
+  plugins: [require("daisyui")],
 }
