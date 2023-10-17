@@ -1,0 +1,24 @@
+.how-to-go {
+
+
+
+    .container {
+
+        @apply flex flex-col justify-center items-center bg-how-to-go-color text-main-color p-10;
+
+        .title {
+            @apply font-imperial text-8xl;
+        }
+
+        .description {
+            @apply font-cormorant text-3xl w-3/5 text-center;
+        }
+
+        .icon-container {
+            @apply flex gap-10;
+
+            .icons {}
+        }
+
+    }
+}

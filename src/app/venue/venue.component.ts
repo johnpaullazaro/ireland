@@ -7,4 +7,19 @@ import { Component } from '@angular/core';
 })
 export class VenueComponent {
 
+  carvenue = [
+
+    {
+      image: "../../assets/image/png/car1.png"
+    
+    },
+    {
+      image: "../../assets/image/png/car1.png"
+    
+    },
+    {
+      image: "../../assets/image/png/car1.png"
+    
+    }
+  ]
 }
