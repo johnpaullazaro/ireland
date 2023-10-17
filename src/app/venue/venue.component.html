@@ -1,0 +1,21 @@
+<div class="venue-container">
+    <div class="heading">
+        <p class="heading-venue">Venue</p>
+        <p class="heading-date">10 . 20 . 2023</p>
+        <p class="heading-time">10:00 PM</p>
+    </div>
+    <div class="venue-body">
+        <p class="venue">
+            Shanrila Hotel
+        </p>
+        <p class="venue-location">
+            30th Street corner 5th Avenue, Bonifacio Global City, Taguig City, Philippines
+        </p>
+    </div>
+    <div class="venue-carousel flex justify-center gap-x-60 w-full mt-10 ">    
+        <div class="image-container" *ngFor="let vc of carvenue">
+            <img class="w-70 h-80" [src]="vc.image"/>
+        </div>
+</div>
+
+</div>

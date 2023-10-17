@@ -1,0 +1,31 @@
+.venue-container {
+    @apply p-10 bg-slate-100;
+
+    .heading {
+        @apply flex flex-col justify-center items-center mt-10;
+
+        .heading-venue {
+            @apply font-imperial text-secondary-color text-8xl;
+        }
+        
+        .heading-date {
+            @apply font-cormorant text-secondary-color text-4xl;
+        }
+
+        .heading-time {
+            @apply font-cormorant text-secondary-color text-2xl;
+        }
+    }
+
+    .venue-body {
+        @apply flex flex-col justify-center items-center bg-slate-100;
+
+        .venue {
+            @apply font-imperial text-secondary-color;
+        }
+
+        .venue-location {
+            @apply font-cormorant text-main-color;
+        }
+    }
+}

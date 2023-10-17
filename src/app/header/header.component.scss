@@ -1,0 +1,7 @@
+.header-container {
+    @apply flex items-center justify-center h-screen;
+
+    .image-description {
+        @apply h-full w-full;
+    }
+}
